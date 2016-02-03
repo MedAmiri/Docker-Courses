@@ -1,0 +1,76 @@
+  1  cd /var/lib/docker/volumes/eda4b2569ca8e051533911dbf1775715ef52e31655a4444a58abf26426433d5e/_data
+    2  ls
+    3  docker inspect hypriot/rpi-redis
+    4  cd /var/lib/docker/volumes/eda4b2569ca8e051533911dbf1775715ef52e31655a4444a58abf26426433d5e/_data
+    5  ls
+    6  docker volume
+    7  docker volume --help
+    8  docker volume ls 
+    9  logout
+   10  systemctl stop docker
+   11  systemctl stop docker.socket
+   12  cd /var/lib/
+   13  mv docker docker.old
+   14  ls
+   15  ll
+   16  ls -l
+   17  vi /etc/default/docker 
+   18  vi /etc/profile.d/proxy.sh 
+   19  apt-get update && apt-get upgrade -y && reboot now
+   20  vi /etc/default/docker 
+   21  systemctl daemon-reload 
+   22  systemctl restart docker
+   23  vi /etc/default/docker 
+   24  sudo reboot now
+   25  journalctl -u haproxy
+   26  systemctl stop haproxy
+   27  systemctl start  haproxy
+   28  systemctl status  haproxy
+   29  cat /etc/haproxy/haproxy.cfg 
+   30  curl --noproxy '*' -I http://172.17.0.3:80
+   31  curl --noproxy '*' -I http://172.17.0.3:80/check.txt
+   32  curl --noproxy '*' -I http://172.17.0.3:80/index.html
+   33  ls
+   34  cd /home/pi/travail/
+   35  ls
+   36  cd cluster
+   37  ls
+   38  touch check.txt
+   39  nano check.txt
+   40  cd ..
+   41  cd cluster2/
+   42  ls
+   43  touch check.txt
+   44  nano check.txt
+   45  nano Dockerfile 
+   46  docker ps 
+   47* 
+   48  docker ps 
+   49  docker kill e35
+   50  docker ps
+   51  docker build -t server-01:2.0.0 ./
+   52  docker ps 
+   53  docker run -d -p 522:80 server-01:2.0.0
+   54  docker ps 
+   55  cd ..
+   56  cd cluster2/
+   57  ls
+   58  cd ..
+   59  cd cluster
+   60  ls
+   61  nano Dockerfile 
+   62  docker ps 
+   63  docker kill f2d
+   64  docker build -t server-02:2.0.0 ./
+   65  docker run -d -p 523:80 server-02:2.0.0
+   66  docker ps 
+   67  nano Dockerfile 
+   68  docker kill a0a
+   69  docker run -d -p 523:80 server-02:2.0.0
+   70  docker ps
+   71  docker kill bca
+   72  docker build -t server-02:2.0.0 ./
+   73  docker run -d -p 523:80 server-02:2.0.0
+   74  historic
+   75  history
+

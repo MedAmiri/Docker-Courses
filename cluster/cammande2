@@ -1,0 +1,1999 @@
+ 474  ls /var 2> /dev/null
+  475  echo $?
+  476  echo OK 2> /dev/stdout
+  477  echo $?
+  478  echo OK 2> /dev/stdout
+  479  ls /var 1> /dev/stdout
+  480  echo $?
+  481  ls /var 2> /dev/stdout
+  482  echo $?
+  483  ls /vr 2> /dev/stdout
+  484  echo $?
+  485  ls /vr 1> /dev/stdout
+  486  docker ps -a
+  487  docker ps
+  488  docker run -ti dduportal/rpi-alpine /bin/sh
+  489  docker ps
+  490  docker run --help
+  491  docker run -d --help
+  492  docker run -d dduportal/arm-redis:3.0.0
+  493  docker run -d dduportal/arm-nginx
+  494  docker create --help
+  495  docker -w
+  496  docker -w --help
+  497  docker -w dduportal/arm-redis
+  498  docker --help
+  499  docker rename dduportal
+  500  docker rename goofy_jones nisrine_drissi
+  501  docker ps
+  502  docker pause 
+  503  docker pause admiring_ritchie
+  504  docker kill admiring_ritchie 
+  505  docker unpause admiring_ritchie
+  506  docker kill admiring_ritchie 
+  507  docker ps
+  508  docker help
+  509  docker diff nisrine_drissi 
+  510  docker stats
+  511  docker stats --help
+  512  docker stats nisrine_drissi 
+  513  ls
+  514  cd travail/
+  515  ls
+  516  cd arm-nginx/
+  517  ls
+  518  cat README.md 
+  519  docker ps
+  520  docker unpause nisrine_drissi 
+  521  docker ps
+  522  ip addr show
+  523  curl -x http://10.0.4.2:3128 google.com
+  524  ns lookup
+  525  ns look up
+  526  nslookup
+  527  digue
+  528  dig
+  529  ping google.frt
+  530  ping google.fr
+  531  sudo rout
+  532  sudo rout -n
+  533  sudo route -n
+  534  docker ps
+  535  docker stop nisrine_drissi 
+  536  docker ps
+  537  ip addr show
+  538  docker run -d --name webserver dduportal/arm-nginx:latest
+  539  docker run -d --name webserver dduportal/nisrine_drissi
+  540  docker run -d --name webserver dduportal/arm-nginx:latest
+  541  docker run -d --name webservernginx dduportal/arm-nginx:latest
+  542  docker ps
+  543  ip addr show
+  544  history
+  545  sudo route
+  546  docker inspect --help
+  547  docker inspect --format
+  548  docker inspect -s
+  549  docker inspect --type
+  550  docker inspect dduportal/arm-nginx
+  551  docker ps
+  552  docker inspect webservernginx
+  553  docker ps
+  554  curl --noproxy '*' http://172.17.0.2:80 '*'
+  555  docker ps
+  556  docker --help
+  557  docker -ps 
+  558  See 'docker --help'.
+  559  HypriotOS: pi@piensg001 in ~/travail/arm-nginx on master
+  560  $ docker publish
+  561  docker run --name=webserver2 -d -P dduportal/arm-nginx
+  562  docker run --name=webserver2222 -d -P dduportal/arm-nginx
+  563  docker port webserver2222
+  564  curl --help
+  565  docker ps
+  566  ipconfig
+  567  docker inspect dduportal/webserver2222
+  568  docker inspect dduportal/arm-nginx
+  569  docker ps
+  570  ip addr show
+  571  sudo route
+  572  ip addr show
+  573  curl -noproxy '*' http://127.0.0.1:80 '*'
+  574  ip addr show
+  575  docker ps
+  576  curl -noproxy '*' http://127.0.0.1:32770 '*'
+  577  curl -noproxy '*' http://127.0.0.1:32768 '*'
+  578  curl -noproxy '*' http://127.0.0.1:32770 '*'
+  579  docker ps
+  580  curl -noproxy '*' http://127.0.0.1:32769 '*'
+  581  curl -noproxy '*' http://127.0.0.1:32771 '*'
+  582  docker ps
+  583  ip addr ps
+  584  ip addr show
+  585  curl -noproxy '*' http://127.0.0.1:32771 '*'
+  586  docker inspect webserver2222
+  587  docker run --name=webserver2222 -d -p 10000:32771 dduportal/arm-nginx
+  588  docker run --name=webserver22220 -d -p 10000:32771 dduportal/arm-nginx
+  589  ip addr show
+  590  docker ps
+  591  ip addr show
+  592  curl -noproxy '*' http://172.31.57.60:32771 '*'
+  593  curl -noproxy '*' http://172.31.57.60:32771
+  594  curl --noproxy '*' http://172.31.57.60:32771
+  595  ip addr  +show
+  596  curl --noproxy '*' http:://172.17.0.1:32771
+  597  docker ps
+  598  curl --noproxy '*' http:://172.17.0.1:32771
+  599  curl --noproxy '*' http://172.17.0.1:32771
+  600  docker ps
+  601  curl -noproxy '*' http://172.31.57.62:32771 '*'
+  602  sudo route
+  603  ip addr show
+  604  curl --noproxy '*' http://piensg001:32771
+  605  curl --noproxy '*' http://piensg001:80
+  606  curl --noproxy '*' http://piensg001:80http://piensg001:80
+  607  docker run --name=webserver222244 -d -p 32771:80 dduportal/arm-nginx
+  608  docker run --name=webserver222244 -d -P 32771:80 dduportal/arm-nginx
+  609  docker run --name=webserver222244 -d -P 10000:80 dduportal/arm-nginx
+  610  docker run --name=webserver222244 -d -p 10000:80 dduportal/arm-nginx
+  611  docker run --name=webserver222244 -d -p 10045:80 dduportal/arm-nginx
+  612  docker run -d -p 10045:80 dduportal/arm-nginx
+  613  docker ps
+  614  docker ps -l
+  615  docker stp 56
+  616  docker stop 56
+  617  docker ps
+  618  docker -q
+  619  docker -a
+  620  docker -a -q
+  621  docker ps -q
+  622  docker ps -a -q
+  623  xargs
+  624  docker ps -q 
+  625  docker ps -q | xargs docker kill
+  626  docker ps
+  627  docker ps -a
+  628  docker ps
+  629  docker run -d --name redissrv dduportal/arm-redis:3.0.0
+  630  docker ps
+  631  ip addr show
+  632  docker exec -ti redissrv /bin/sh
+  633  docker ps
+  634  redis-cli 
+  635  which redis
+  636  apt-get install redis
+  637  docker run -ti dduportal/arm-redis:3.0.0 /sh
+  638  docker ps
+  639  docker run -ti --link redissrv:clemousse 
+  640  docker run -ti --link redissrv:clemousse dduportal/arm-redis:3.0.0 /sh
+  641  docker run -ti --link redissrv:clemousse dduportal/arm-redis:3.0.0 /bin/sh
+  642  exit
+  643  docker inspect 
+  644  docker inspect redissrv
+  645  docker ps
+  646  exit
+  647  ssh pi@piensg002 echo ok
+  648  ssh pi@piensg003 echo ok
+  649  ssh pi@piensg011
+  650  ssh -v pi@piensg011
+  651  ssh pi@piensg004
+  652  ssh pi@piensg005
+  653  ping piensg007
+  654  sudo halt -n
+  655  ls
+  656  cd Dock/
+  657  ls
+  658  vim Dockerfile 
+  659  docker images -a
+  660  ping piensg007
+  661  ping piensg004
+  662  ssh -v piensg004
+  663  ping piensg007
+  664  ssh -v piensg007
+  665  docker ps
+  666  docker run -ti dduportal/rpi-alpine sh
+  667  docker history ps
+  668  docker history
+  669  docker ps
+  670  ip addr show
+  671  docker commit --help
+  672  docker ps -a
+  673  docker commit 09d466316b97
+  674  docker ps
+  675  docker commit --help
+  676  docker images
+  677  docker tag <none> niniss
+  678  docker tag none niniss
+  679  docker tag   niniss
+  680  docker tag <> niniss
+  681  docker tag --help
+  682  docker tag 09d466316b97 niniss
+  683  docker tag c315d0263364 niniss
+  684  docker images
+  685  docker history
+  686  docker history c315d0263364
+  687  docker run -ti niniss sh
+  688  docker ps -a
+  689  docker commit c0edda6ac1ba
+  690  docker images
+  691  docker tag c0edda6ac1ba  niniss2
+  692  docker tag 2c78ea2f2beb niniss2
+  693  docker run -ti niniss2 sh
+  694  docker rmi 2c78ea2f2beb 
+  695  docker rmi 72404cb54a47
+  696  docker images
+  697  docker tag 2c78ea2f2beb ninisss
+  698  docker run -ti niniss sh
+  699  docker images
+  700  docker rmi niniss
+  701  docker rm 2c78ea2f2beb
+  702  docker rm niniss
+  703  docker rm ninisss
+  704  docker rm 0aca4701e99d
+  705  c315d0263364
+  706  docker rmi c315d0263364
+  707  docker rmi niniss
+  708  docker image
+  709  docker rmi niniss
+  710  docker rmi 
+  711  docker rmi c315d0263364
+  712  713555                      eca62f
+  713  docker rmi c315d0263364
+  714  docker rmi 713555eca62f
+  715  docker rm 713555eca62f
+  716  docker rmi  
+  717  docker rmi ' '
+  718  docker rmi c315d0263364
+  719  docker rm 8bb89d857105
+  720  docker rmi c315d0263364
+  721  docker rmi ps -a
+  722  docker ps -a
+  723  docker ps --help
+  724  docker ps -a -q
+  725  docker ps -a -q | xargs docker rm
+  726  docker ps
+  727  docker stop
+  728  docker stop 321c27457202
+  729  docker ps -a -q | xargs docker rm
+  730  docker ps -a
+  731  docker ps -a -q | xargs docker rmi
+  732  docker images
+  733  docker images -a -q
+  734  docker images -a -q | xargs docker rmi
+  735  docker images -a -q | xargs docker rm
+  736  docker images -a -q | xargs docker rmi
+  737  docker images -a -q | xargs docker rm
+  738  docker images -a -q | xargs docker kill
+  739  docker images -q
+  740  docker images -q | xargs docker rm
+  741  docker images -q | xargs docker -f
+  742  docker images -f
+  743  docker images
+  744  docker images 7a21760c41c7 -f
+  745  docker images -a -q | xargs docker -f
+  746  docker images -q | xargs docker -f
+  747  docker images -q | xargs docker rmi -f
+  748  docker images
+  749  Dockerfile
+  750  cat Dockerfile
+  751  docker inspect
+  752  docker ps
+  753  ls
+  754  vi dockerfileniniss.txt
+  755  cat Dockerfile
+  756  cat dockerfileniniss.txt
+  757  mkdir Dock
+  758  ls
+  759  cd Dock/
+  760  mv ./dockerfileniniss.txt 
+  761  cd ..
+  762  ls
+  763  mv dockerfileniniss.txt ./Dock/
+  764  ls
+  765  cd Dock/
+  766  ls
+  767  rename dockerfileniniss.txt Dockerfile
+  768  rename dockerfileniniss.txt Dockerfile.txt
+  769  vi dockerfileniniss.txt 
+  770  cat dockerfileniniss.txt 
+  771  docker build -t nisrinimg:2.0.0 ./
+  772  vi Dockerfile
+  773  docker build -t nisrinimg:2.0.0 ./
+  774  docker run -ti nisrinimg:2.0.0 sh
+  775  docker history 
+  776  docker history nisrinimg
+  777  docker history 3cce679e674d
+  778  docker build -t nisrinimg:2.0.0 ./
+  779  ls
+  780  vi Dockerfile 
+  781  docker build -t nisrinimg:2.0.0 ./
+  782  ls
+  783  docker images -a
+  784  docker images -A
+  785  docker images --help
+  786  docker images --digests
+  787  docker images -a
+  788  ls
+  789  vi Dockerfile 
+  790  docker build -t ninginx:2.0.0 ./
+  791  docker images
+  792  curl -I -x ninginx/google.com
+  793  ls
+  794  vi dockerfileniniss.txt 
+  795  vi Dockerfile 
+  796  docker build -t ninginx:2.0.0 ./
+  797  vi Dockerfile 
+  798  docker inspect dduportal/arm-nginx
+  799  docker run -p
+  800  docker ps
+  801  docker ps -a
+  802  docker run -ti ninginx:2.0.0 sh
+  803  ls
+  804  vi Dockerfile 
+  805  cat Dockerfile 
+  806  docker run -d dduportal/arm-nginx 
+  807  docker inspect dduportal/arm-nginx
+  808  curl -I http://37033f2baca4
+  809  curl -I 37033f2baca4
+  810  curl -I
+  811  curl -I ninginx
+  812  docker ps
+  813  docker images
+  814  history
+  815  docker run -d ninginx:2.0.0
+  816  docker ps
+  817  curl -I ninginx
+  818  curl -I 786d39990e60
+  819  curl -i 786d39990e60
+  820  curl --help
+  821  curl -I arm-nginx
+  822  docker inspect arm-nginx
+  823  docker inspect ninginx
+  824  docker inspect
+  825  docker ps
+  826  docker inspect ninginx:2.0.0
+  827  curl -I 37033f2baca4
+  828  curl -I http://37033f2baca4
+  829  curl -I index.txt
+  830  curl index.txt
+  831  whoami
+  832  ifconfig
+  833  ipconfigg
+  834  ipconfig
+  835  ip addr show
+  836  curl -I 127.0.0.1/8 
+  837  curl -I 127.0.0.1/80
+  838  docker ps
+  839  curl -I 127.0.0.1
+  840  curl -I 172.31.57.60
+  841  docker ps
+  842  curl http://127.0.0.1
+  843  docker inspect ning
+  844  docker inspect ninginx
+  845  docker ps
+  846  reverent_swanson
+  847  docker inspect reverent_swanson
+  848  curl -I http://172.17.0.3
+  849  curl http://172.17.0.3
+  850  ls
+  851  docker run -ti ninginx sh
+  852  docker run -ti ninginx:2.0.0 sh
+  853  ls
+  854  vi Dockerfile 
+  855  docker build -t ninginx:2.0.0 sh
+  856  docker build -t ninginx:2.0.0
+  857  docker build -t ninginx:2.0.0 sh
+  858  ls
+  859  vi Dockerfile 
+  860  docker build -t dernier:2.0.0 sh
+  861  docker build -t dernier:2.0.0
+  862  docker build -t dernier:2.0.0 ./
+  863  docker run -ti dernier:2.0.0 sh
+  864  ls
+  865  vi Dockerfile 
+  866  docker run -ti derniere:2.0.0 sh
+  867  docker build -t derniere:2.0.0 ./
+  868  docker run -ti derniere:2.0.0 sh
+  869  history
+  870  curl http://172.17.0.3
+  871  docker ps
+  872  docker inspect reverent_swanson 
+  873  curl --noproxy "*" http://172.17.0.3
+  874  docker build -d derniere:2.0.0 ./
+  875  docker run -d derniere:2.0.0 ./
+  876  docker run -d derniere:2.0.0
+  877  docker inspect reverent_swanson 
+  878  docker ps
+  879  docker inspect admiring_snyder 
+  880  curl --noproxy "*" http://172.17.0.4
+  881  curl --noproxy "*" http://piensg010:22333
+  882  docker ps
+  883  ls
+  884  vi Dockerfile 
+  885  curl --noproxy "*" http://piensg010:22333
+  886  curl --noproxy "*" http://172.17.0.4
+  887  curl --noproxy "*" http://172.31.57.61:10000
+  888  history
+  889  docker build -t dernierdernier:2.0.0 ./
+  890  docker ps
+  891  docker run -d dernierdernier:2.0.0
+  892  docker ps
+  893  docker inspect serene_hamilton 
+  894  curl --noproxy "*" http://172.17.0.5
+  895  docker ps
+  896  docker run --name=extern:2.0.0 -d -P dernierdernier
+  897  docker run --name=extern:2.0.0 -d -P dernierdernier:2.0.0
+  898  docker run --name=extern:2.0.0 -d -P extern
+  899  docker run --name=dernierdernier:2.0.0 -d -P extern
+  900  docker run --name=dernierdernier:2.0.0 -d -P 10001:80 extern
+  901  docker run --name=dernierdernier:2.0.0 -d -P dernierdernier
+  902  docker inspect dernierdernier
+  903  ps
+  904  docker ps
+  905  ps aux
+  906  docker ps
+  907  docker run --name=webserver -d -p 1000:80 dernierdernier:2.0.0
+  908  docker port webserver
+  909  80/tcp -> 0.0.0.0:PORT
+  910  80 -> 0.0.0.0:PORT
+  911  curl -I http://10.0.0.0:1080
+  912  curl -I http://10.0.0.0:80
+  913  curl -I http://10.0.0.0:1000
+  914  docker run --name=webserver -d -p 10000:80 dernierdernier:2.0.0
+  915  docker run --name=webserverr -d -p 10000:80 dernierdernier:2.0.0
+  916  docker port webserverr
+  917  curl -I http://10.0.0.0:10000
+  918  curl -I "*" http://10.0.0.0:10000
+  919  curl -I --noproxy "*" http://10.0.0.0:10000
+  920  curl -I "*" http://10.0.0.0:10000
+  921  docker inspect dernierdernier
+  922  docker inspect dernierdernier:2.0.0
+  923  docker ps
+  924  docker inspect serene_hamilton
+  925  docker run --name=webserverrr -d -P dernierdernier:2.0.0
+  926  docker port websever
+  927  docker port webserver
+  928  docker run --name=webserverrr -d -p 10000:80 dernierdernier:2.0.0
+  929  docker run --name=webserverrrr -d -p 10000:80 dernierdernier:2.0.0
+  930  docker run -d -p 10000:80 dernierdernier:2.0.0
+  931  docker run -d -p 10002:80 dernierdernier:2.0.0
+  932  docker ps
+  933  docker run -d -p 10004:80 dernierdernier:2.0.0
+  934  docker run -ti dduportal/rpi-alpine sh
+  935  docker run -ti -v /app dduportal/rpi-alpine sh
+  936  docker run -ti --volumes-from dduportal/rpi-alpine sh 
+  937  docker ps
+  938  docker ps -a
+  939  docker run -ti --volumes-from condescending_wozniak dduportal/rpi-alpine ls -l /app
+  940  history
+  941  docker pull dduportal/arm-redis
+  942  cat 
+  943  cat /etc/default/docker
+  944  docker pull dduportal/hypriot/rpi-redis
+  945  docker pull hypriot/rpi-redis
+  946  cat /etc/default/docker
+  947  cat /etc/apt/
+  948  ls
+  949  cd /etc/apt/
+  950  ls
+  951  sudo apt.conf.d
+  952  cd apt.conf.d/
+  953  ls
+  954  vim proxy
+  955  apt-get update && ugrade
+  956  su apt-get update && ugrade
+  957  sudo apt-get update && ugrade
+  958  sudo apt-get upgrade
+  959  sudo reboot now
+  960  docker inspect redis-server-oa
+  961  docker inspect redis-server-01
+  962  exit
+  963  docker images
+  964  docker run --help
+  965  docker run -d --name redis-server-01 dduportal/arm-redis 
+  966  docker ps
+  967  docker images
+  968  docker logs --help
+  969  docker logs 
+  970  docker logos redis-server-oa
+  971  docker logos redis-server-o1
+  972  docker logs redis-server-o1
+  973  docker ps
+  974  docker logs cb1
+  975  docker ru -ti entrypoint ssh dduportal/arm-redis
+  976  docker run -ti entrypoint ssh dduportal/arm-redis
+  977  docker run -ti entrypoint=sh dduportal/arm-redis
+  978  docker run -ti --entrypoint=sh dduportal/arm-redis
+  979  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping redis-server-oa
+  980  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping redis-server-01
+  981  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping bdd
+  982  docker run -ti --entrypoint=sh --link=redis-server-01:bdd dduportal/arm-redis 
+  983  docker pull hypriot/rpi-python
+  984  ls
+  985  cd travail/
+  986  ls
+  987  mkdir Dockerfile
+  988  ls
+  989  vim Dockerfile/
+  990  vim Dockerfile
+  991  rm Dockerfile/
+  992  rm -r Dockerfile/
+  993  ls
+  994  touch Dockerfile
+  995  vim Dockerfile 
+  996  touch app.py
+  997  vim app.py
+  998  ls
+  999  pwd
+ 1000  vim Dockerfile 
+ 1001  vim Dockerfile
+ 1002  touch requirements.txt
+ 1003  v
+ 1004  vim Dockerfile
+ 1005  docker build -t teste ./
+ 1006  vim Dockerfile
+ 1007  docker build -t teste ./
+ 1008  ls
+ 1009  pwd
+ 1010  vim Dockerfile
+ 1011  vim Dockerfile
+ 1012  docker build -t teste ./
+ 1013  vim Dockerfile
+ 1014  vim requirements.txt 
+ 1015  vim app.py 
+ 1016  vim Dockerfile
+ 1017  docker build -t teste ./
+ 1018  vim Dockerfile
+ 1019  docker build -t teste ./
+ 1020  vim Dockerfile
+ 1021  sudo route -n
+ 1022  docker ps -a
+ 1023  docker run -d test
+ 1024  docker build -t teste ./
+ 1025  docker run -d teste
+ 1026  docker ps
+ 1027  docker inspect teste
+ 1028  docker logs teste
+ 1029  docker ps
+ 1030  docker logs 9c3
+ 1031  ip addrshow
+ 1032  ip addr show
+ 1033  vim app.py 
+ 1034  docker -compose
+ 1035  docker- compose -v
+ 1036  docker -compose -v
+ 1037  docker- compose -v
+ 1038  docker compose --help
+ 1039  docker- compose -v
+ 1040  docker- compose 
+ 1041  docker-compose
+ 1042  docker-compose --help
+ 1043  touch compose.yaml
+ 1044  docker-compose up -d
+ 1045  touch compose.yaml
+ 1046  rm -r compose.yaml 
+ 1047  ls
+ 1048  touch docker-compose.yaml
+ 1049  vim docker-compose.yaml
+ 1050  docker-compose up -d
+ 1051  vim docker-compose.yaml
+ 1052  docker-compose up -d
+ 1053  vim docker-compose.yaml
+ 1054  docker-compose up -d
+ 1055  vim docker-compose.yaml
+ 1056  docker-compose up -d
+ 1057  docker-compose ps
+ 1058  ip addr show
+ 1059  vim docker-compose.yaml
+ 1060  vim Dockerfile
+ 1061  ls
+ 1062  cd travail/
+ 1063  ls
+ 1064  vim docker-compose.yaml
+ 1065  vim Dockerfile 
+ 1066  ls
+ 1067  cd /etc/
+ 1068  ls
+ 1069  cd hosts
+ 1070  cd /hosts
+ 1071  cd hosts/
+ 1072  cd .
+ 1073  cd 
+ 1074  nano /etc/boot
+ 1075  cd /etc/boot
+ 1076  cd /etc/boot/
+ 1077  cd ..
+ 1078  vi /boot/occidentalis.txt 
+ 1079  sudo vi /boot/occidentalis.txt 
+ 1080  sudo reboot now
+ 1081  cd travail/
+ 1082  ls 
+ 1083  cd voting/
+ 1084  ls
+ 1085  cd example-voting-app/
+ 1086  cd vote-apps/
+ 1087  ls
+ 1088  cd voting-app/
+ 1089  ls
+ 1090  cd ..
+ 1091  cd result-app/
+ 1092  cat Dockerfile
+ 1093  nano Dockerfile
+ 1094  exit
+ 1095  git clone https://github.com/docker/example-voting-app.git
+ 1096  cd /etc/apt/apt.conf.d/
+ 1097  ls
+ 1098  nano proxy
+ 1099  git clone https://github.com/docker/example-voting-app.git
+ 1100  ls
+ 1101  cd ..
+ 1102  cd
+ 1103  cd travail/
+ 1104  mkdir voting
+ 1105  cd voting/
+ 1106  git clone https://github.com/docker/example-voting-app.git
+ 1107  cat /etc/profile
+ 1108  sudo vim /etc/profile.d/proxy.sh
+ 1109  echo $a
+ 1110  . /etc/profile.d/proxy.sh
+ 1111  nano 
+ 1112  nano /etc/profile.d/proxy.sh
+ 1113  . /etc/profile.d/proxy.sh
+ 1114  echo $proxy 
+ 1115  git clone https://github.com/docker/example-voting-app.git
+ 1116  sudo nano /etc/profile.d/proxy.s
+ 1117  git clone https://github.com/docker/example-voting-app.git
+ 1118  ls
+ 1119  cd example-voting-app/
+ 1120  ls
+ 1121  cd vote-apps/
+ 1122  ls
+ 1123  cd worker/
+ 1124  ls
+ 1125  sudo nano Dockerfile 
+ 1126  cd ..
+ 1127  ls
+ 1128  sudo docker-compose
+ 1129  sudo nano docker-compose
+ 1130  ls
+ 1131  sudo nano docker-compose.yml 
+ 1132  ls
+ 1133  cd result-app/
+ 1134  ls
+ 1135  sudo nano Dockerfile 
+ 1136  cd ..
+ 1137  ls
+ 1138  cd voting-app/
+ 1139  ls
+ 1140  sudo nano Dockerfile 
+ 1141  cd ..
+ 1142  ls
+ 1143  docker-compose up -d
+ 1144  ls
+ 1145  cd worker/
+ 1146  ls
+ 1147  sudo nano Dockerfile 
+ 1148  run build -t test ./
+ 1149  docker  build -t test ./
+ 1150  sudo nano Dockerfile 
+ 1151  docker  build -t test ./
+ 1152  cd ..
+ 1153  cd voting-app/
+ 1154  ls
+ 1155  docker build -t ttt ./
+ 1156  sudo nano Dockerfile 
+ 1157  docker build -t ttt ./
+ 1158  cd ..
+ 1159  cd worker/
+ 1160  ls
+ 1161  sudo nano Dockerfile 
+ 1162  docker build -t tt ./
+ 1163  sudo nano Dockerfile 
+ 1164  ls
+ 1165  sudo nano pom.xml 
+ 1166  ls
+ 1167  cd result-app/
+ 1168  ls
+ 1169  sudo nano Dockerfile
+ 1170  docker build -t tdt ./
+ 1171  ls
+ 1172  cd ..
+ 1173  ls
+ 1174  cd worker/
+ 1175  ls
+ 1176  touch settings.xml
+ 1177  nano settings.xml
+ 1178  docker build -t tdt ./
+ 1179  cd ..
+ 1180  cd voting-app/
+ 1181  docker build -t tddt ./
+ 1182  cd ..
+ 1183  cd result-app/
+ 1184  docker build -t tdddt ./
+ 1185  cd ..
+ 1186  ls
+ 1187  docker-compose up -d
+ 1188  cd worker/
+ 1189  cat Dockerfile 
+ 1190  which ls
+ 1191  echo $path
+ 1192  echo $PATH
+ 1193  nano Dockerfile 
+ 1194  cd ..
+ 1195  docker-compose up -d
+ 1196  nano Dockerfile 
+ 1197  docker-compose up -d
+ 1198  cd ..
+ 1199  docker-compose up -d
+ 1200  docker-compose --help
+ 1201  docker-compose ps -a -q | xargs docker-compose kill
+ 1202  docker-compose up -d
+ 1203  docker-compose ps -q | xargs docker-compose kill
+ 1204  docker-compose ps 
+ 1205  docker-compose ps -a -q | xargs docker-compose kill 
+ 1206  ls
+ 1207  docker-compose ps -a -q | xargs docker-compose kill 
+ 1208  docker-compose up -d
+ 1209  docker-compose up -d
+ 1210  docker compose ps -a
+ 1211  docker-compose ps -a
+ 1212  docker-compose ps -q | xargs docker-compose kill
+ 1213  docker-compose ps -q | xargs docker-compose rmi -f
+ 1214  docker-compose --help
+ 1215  docker-compose ps -q | xargs docker-compose rm -f
+ 1216  cd worker/
+ 1217  cat Dockerfile 
+ 1218  docker-compose up -d
+ 1219  cd ..
+ 1220  docker-compose up -d
+ 1221  docker-compose ps -q | xargs docker-compose rm -f
+ 1222  docker ps -qa | xargs docker-compose rm -f
+ 1223  docker ps -qa | xargs docker rm -f
+ 1224  docker ps -qa | xargs docker-compose rm -f
+ 1225  docker-compose up -d
+ 1226  cd worker/
+ 1227  cat Dockerfile 
+ 1228  docker build -t ttttttttt ./
+ 1229  nano Dockerfile 
+ 1230  sudo nano Dockerfile 
+ 1231  cd ..
+ 1232  ls
+ 1233  docker-compose up -d
+ 1234  cat docker-compose.yml 
+ 1235  docker ps -qa | xargs docker-compose rm -f
+ 1236  docker ps -qa | xargs docker rm -f
+ 1237  docker-compose up -d
+ 1238  cd worker/
+ 1239  docker build -t ttttttttt ./
+ 1240  cd ..
+ 1241  cd voting-app/
+ 1242  docker-compose up -d
+ 1243  docker ps -qa | xargs docker rm -f
+ 1244  docker-compose up -d
+ 1245  cd ..
+ 1246  ls
+ 1247  cd worker/
+ 1248  cat Dockerfile 
+ 1249  docker build -t ttttttttt ./
+ 1250  docker run -ti 4d6 /bin/bash
+ 1251  cd ..
+ 1252  docker-compose up -d
+ 1253  docker-compose ps
+ 1254  docker-compose kill voteapp_voteapps_worker_1 
+ 1255  docker-compose ps -a
+ 1256  docker-compose ps -q
+ 1257  docker-compose kill 218
+ 1258  docker-compose ps -q | xargs docker-compose kill
+ 1259  docker-compose ps -q
+ 1260  docker-compose ps -q | xargs docker-compose rm
+ 1261  docker-compose ps -q
+ 1262  docker-compose ps -qa
+ 1263  docker-compose ps 
+ 1264  docker-compose ps -q -a
+ 1265  docker-compose ps -q 
+ 1266  docker-compose up -d
+ 1267  docker ps -q -a | xargs docker rm -f
+ 1268  docker-compose ps
+ 1269  docker-compose up -d
+ 1270  cd worker/
+ 1271  cat Dockerfile 
+ 1272  cd ..
+ 1273  docker-compose up -d worker
+ 1274  docker-compose build worker
+ 1275  ls
+ 1276  docker-compose up -d
+ 1277  cd voting-app/
+ 1278  ls -a
+ 1279  ls -la
+ 1280  nano Dockerfile
+ 1281  cd //
+ 1282  ls
+ 1283  cd /home/
+ 1284  ls
+ 1285  cd /pi/
+ 1286  cd pi/travail/
+ 1287  ls
+ 1288  cat docker-compose.yaml 
+ 1289  cat Dockerfile 
+ 1290  cd voting/
+ 1291  cd example-voting-app/
+ 1292  ls
+ 1293  cd vote-apps/
+ 1294  ls
+ 1295  docker-compose up -d
+ 1296  docker-compose ps 
+ 1297  ip addr show
+ 1298  docker ps 
+ 1299  cat ./voting-app/Dockerfile
+ 1300  docker-compose logs voting-app/
+ 1301  docker-compose logs voting-app
+ 1302  docker ps
+ 1303  docker exec -ti 987dd2925bd6 /bin/sh
+ 1304  ls
+ 1305  nano docker-compose.yml 
+ 1306  docker-compose up -d
+ 1307  nano docker-compose.yml 
+ 1308  docker-compose up -d
+ 1309  cd ..
+ 1310  cat docker-compose.yaml 
+ 1311  ls
+ 1312  cat app.py 
+ 1313  cd
+ 1314  cd travail/voting/example-voting-app/
+ 1315  ls
+ 1316  cd vote-apps/
+ 1317  ls
+ 1318  cat docker-compose.yml 
+ 1319  nano docker-compose.yml 
+ 1320  nano docker-compose.yml 
+ 1321  docker-compose up -d
+ 1322  vim docker-compose.yml 
+ 1323  docker-compose up -d
+ 1324  vim docker-compose.yml 
+ 1325  docker-compose up -d
+ 1326  ls
+ 1327  cd ..
+ 1328  ls
+ 1329  git status
+ 1330  git remote add amiri https://github.com/MedAmiri/voting-example.git
+ 1331  git add .
+ 1332  git commit -m "teste reussi processeur ARM"
+ 1333  git config --global user.email "amiri.mohammed41@gmail.com"
+ 1334  git config --global user.name "MedAmiri"
+ 1335  git commit -m "teste reussi processeur ARM"
+ 1336  git push amiri master
+ 1337  ls
+ 1338  cd vote-apps/
+ 1339  ls
+ 1340  cat docker-compose.yml 
+ 1341  git status
+ 1342  git pull amiri master
+ 1343  git log
+ 1344  git push amiri master
+ 1345  ls
+ 1346  nano docker-compose.yml 
+ 1347  docker-compose --x-networking up -d
+ 1348  docker images
+ 1349  docker run -ti --entrypoint sh hypriot/rpi-redis 
+ 1350  docker run -v /app -ti --entrypoint sh hypriot/rpi-redis 
+ 1351  docker ps -l
+ 1352  docker rm 9c6e13cb5549
+ 1353  docker run -v /app -ti --entrypoint sh hypriot/rpi-redis 
+ 1354  docker ps
+ 1355  docker ps -q | xargs docker kill
+ 1356  man xargs
+ 1357  docker ps -a -q | xargs docker rm -v
+ 1358  docker images
+ 1359  docker images -f dangling=true
+ 1360  docker images -f dangling=true -q | xargs docker rmi
+ 1361  sudo su -
+ 1362  docker ps 
+ 1363  docker inspect 9c6
+ 1364  sudo su -
+ 1365  docker ps
+ 1366  docker run -ti --entrypoint sh --volumes-from hight_fermi hypriot/rpi-redis
+ 1367  docker run -ti --entrypoint sh --volumes-from high_fermi hypriot/rpi-redis
+ 1368  docker ps
+ 1369  docker run -ti --entrypoint sh --volumes-from 349434bf024a  hypriot/rpi-redis
+ 1370  docker info
+ 1371  docker run --restart=always -d hypriot/rpi-swarm join --advertise $(hostname):2375 consul://172.31.56.94:8500
+ 1372  docker ps
+ 1373  docker logs e35
+ 1374  sudo su -
+ 1375  docker images
+ 1376  ls
+ 1377  cd travail/
+ 1378  apt-get install haproxy
+ 1379  sudo apt-get install haproxy
+ 1380  mkdir cluster
+ 1381  cd cluster/
+ 1382  ls
+ 1383  touch Dockerfile
+ 1384  cat Dockerfile 
+ 1385  nano Dockerfile 
+ 1386  touch index.html
+ 1387  nano index.html 
+ 1388  ls
+ 1389  rm index.htmles 
+ 1390  ls
+ 1391  cd ..
+ 1392  mkdir cluster2
+ 1393  touch Dockerfile
+ 1394  touch index.html
+ 1395  nano index.html 
+ 1396  nano Dockerfile 
+ 1397  ls
+ 1398  mv index.html ./cluster2/
+ 1399  cd cluster2/
+ 1400  ls
+ 1401  touch Dockerfile
+ 1402  nano Dockerfile 
+ 1403  cd ..
+ 1404  docker run -ti dduportal/arm-nginx
+ 1405  docker run -ti dduportal/arm-nginx /bin/bash
+ 1406  docker run -ti dduportal/arm-nginx /sh
+ 1407  cd cluster
+ 1408  ls
+ 1409  docker run -ti dduportal/arm-nginx sh
+ 1410  docker run -ti --entrypoint sh  dduportal/arm-nginx
+ 1411  nano Dockerfile 
+ 1412  cd ..
+ 1413  cd cluster2/
+ 1414  nano Dockerfile 
+ 1415  docker build -t server-01 ./
+ 1416  cd ..
+ 1417  cd cluster
+ 1418  lq
+ 1419  ls
+ 1420  docker build -t server-02 ./
+ 1421  docker -d -P server-01
+ 1422  docker run -d -P server-01
+ 1423  docker run -d -P server-02
+ 1424  docker ps 
+ 1425  docker inspect 740
+ 1426  curl --noproxy '*' 172.17.0.4
+ 1427  curl --noproxy '*' 172.17.0.1
+ 1428  curl --noproxy '*' 172.17.0.4
+ 1429  curl --noproxy '*' -I 172.17.0.4
+ 1430  curl --noproxy '*' -I 172.17.0.4/index.html
+ 1431  curl --noproxy '*' 172.17.0.4/index.html
+ 1432  cat index.html 
+ 1433  cd ..
+ 1434  docker ps
+ 1435  lsq
+ 1436  cd cluster
+ 474  ls /var 2> /dev/null
+  475  echo $?
+  476  echo OK 2> /dev/stdout
+  477  echo $?
+  478  echo OK 2> /dev/stdout
+  479  ls /var 1> /dev/stdout
+  480  echo $?
+  481  ls /var 2> /dev/stdout
+  482  echo $?
+  483  ls /vr 2> /dev/stdout
+  484  echo $?
+  485  ls /vr 1> /dev/stdout
+  486  docker ps -a
+  487  docker ps
+  488  docker run -ti dduportal/rpi-alpine /bin/sh
+  489  docker ps
+  490  docker run --help
+  491  docker run -d --help
+  492  docker run -d dduportal/arm-redis:3.0.0
+  493  docker run -d dduportal/arm-nginx
+  494  docker create --help
+  495  docker -w
+  496  docker -w --help
+  497  docker -w dduportal/arm-redis
+  498  docker --help
+  499  docker rename dduportal
+  500  docker rename goofy_jones nisrine_drissi
+  501  docker ps
+  502  docker pause 
+  503  docker pause admiring_ritchie
+  504  docker kill admiring_ritchie 
+  505  docker unpause admiring_ritchie
+  506  docker kill admiring_ritchie 
+  507  docker ps
+  508  docker help
+  509  docker diff nisrine_drissi 
+  510  docker stats
+  511  docker stats --help
+  512  docker stats nisrine_drissi 
+  513  ls
+  514  cd travail/
+  515  ls
+  516  cd arm-nginx/
+  517  ls
+  518  cat README.md 
+  519  docker ps
+  520  docker unpause nisrine_drissi 
+  521  docker ps
+  522  ip addr show
+  523  curl -x http://10.0.4.2:3128 google.com
+  524  ns lookup
+  525  ns look up
+  526  nslookup
+  527  digue
+  528  dig
+  529  ping google.frt
+  530  ping google.fr
+  531  sudo rout
+  532  sudo rout -n
+  533  sudo route -n
+  534  docker ps
+  535  docker stop nisrine_drissi 
+  536  docker ps
+  537  ip addr show
+  538  docker run -d --name webserver dduportal/arm-nginx:latest
+  539  docker run -d --name webserver dduportal/nisrine_drissi
+  540  docker run -d --name webserver dduportal/arm-nginx:latest
+  541  docker run -d --name webservernginx dduportal/arm-nginx:latest
+  542  docker ps
+  543  ip addr show
+  544  history
+  545  sudo route
+  546  docker inspect --help
+  547  docker inspect --format
+  548  docker inspect -s
+  549  docker inspect --type
+  550  docker inspect dduportal/arm-nginx
+  551  docker ps
+  552  docker inspect webservernginx
+  553  docker ps
+  554  curl --noproxy '*' http://172.17.0.2:80 '*'
+  555  docker ps
+  556  docker --help
+  557  docker -ps 
+  558  See 'docker --help'.
+  559  HypriotOS: pi@piensg001 in ~/travail/arm-nginx on master
+  560  $ docker publish
+  561  docker run --name=webserver2 -d -P dduportal/arm-nginx
+  562  docker run --name=webserver2222 -d -P dduportal/arm-nginx
+  563  docker port webserver2222
+  564  curl --help
+  565  docker ps
+  566  ipconfig
+  567  docker inspect dduportal/webserver2222
+  568  docker inspect dduportal/arm-nginx
+  569  docker ps
+  570  ip addr show
+  571  sudo route
+  572  ip addr show
+  573  curl -noproxy '*' http://127.0.0.1:80 '*'
+  574  ip addr show
+  575  docker ps
+  576  curl -noproxy '*' http://127.0.0.1:32770 '*'
+  577  curl -noproxy '*' http://127.0.0.1:32768 '*'
+  578  curl -noproxy '*' http://127.0.0.1:32770 '*'
+  579  docker ps
+  580  curl -noproxy '*' http://127.0.0.1:32769 '*'
+  581  curl -noproxy '*' http://127.0.0.1:32771 '*'
+  582  docker ps
+  583  ip addr ps
+  584  ip addr show
+  585  curl -noproxy '*' http://127.0.0.1:32771 '*'
+  586  docker inspect webserver2222
+  587  docker run --name=webserver2222 -d -p 10000:32771 dduportal/arm-nginx
+  588  docker run --name=webserver22220 -d -p 10000:32771 dduportal/arm-nginx
+  589  ip addr show
+  590  docker ps
+  591  ip addr show
+  592  curl -noproxy '*' http://172.31.57.60:32771 '*'
+  593  curl -noproxy '*' http://172.31.57.60:32771
+  594  curl --noproxy '*' http://172.31.57.60:32771
+  595  ip addr  +show
+  596  curl --noproxy '*' http:://172.17.0.1:32771
+  597  docker ps
+  598  curl --noproxy '*' http:://172.17.0.1:32771
+  599  curl --noproxy '*' http://172.17.0.1:32771
+  600  docker ps
+  601  curl -noproxy '*' http://172.31.57.62:32771 '*'
+  602  sudo route
+  603  ip addr show
+  604  curl --noproxy '*' http://piensg001:32771
+  605  curl --noproxy '*' http://piensg001:80
+  606  curl --noproxy '*' http://piensg001:80http://piensg001:80
+  607  docker run --name=webserver222244 -d -p 32771:80 dduportal/arm-nginx
+  608  docker run --name=webserver222244 -d -P 32771:80 dduportal/arm-nginx
+  609  docker run --name=webserver222244 -d -P 10000:80 dduportal/arm-nginx
+  610  docker run --name=webserver222244 -d -p 10000:80 dduportal/arm-nginx
+  611  docker run --name=webserver222244 -d -p 10045:80 dduportal/arm-nginx
+  612  docker run -d -p 10045:80 dduportal/arm-nginx
+  613  docker ps
+  614  docker ps -l
+  615  docker stp 56
+  616  docker stop 56
+  617  docker ps
+  618  docker -q
+  619  docker -a
+  620  docker -a -q
+  621  docker ps -q
+  622  docker ps -a -q
+  623  xargs
+  624  docker ps -q 
+  625  docker ps -q | xargs docker kill
+  626  docker ps
+  627  docker ps -a
+  628  docker ps
+  629  docker run -d --name redissrv dduportal/arm-redis:3.0.0
+  630  docker ps
+  631  ip addr show
+  632  docker exec -ti redissrv /bin/sh
+  633  docker ps
+  634  redis-cli 
+  635  which redis
+  636  apt-get install redis
+  637  docker run -ti dduportal/arm-redis:3.0.0 /sh
+  638  docker ps
+  639  docker run -ti --link redissrv:clemousse 
+  640  docker run -ti --link redissrv:clemousse dduportal/arm-redis:3.0.0 /sh
+  641  docker run -ti --link redissrv:clemousse dduportal/arm-redis:3.0.0 /bin/sh
+  642  exit
+  643  docker inspect 
+  644  docker inspect redissrv
+  645  docker ps
+  646  exit
+  647  ssh pi@piensg002 echo ok
+  648  ssh pi@piensg003 echo ok
+  649  ssh pi@piensg011
+  650  ssh -v pi@piensg011
+  651  ssh pi@piensg004
+  652  ssh pi@piensg005
+  653  ping piensg007
+  654  sudo halt -n
+  655  ls
+  656  cd Dock/
+  657  ls
+  658  vim Dockerfile 
+  659  docker images -a
+  660  ping piensg007
+  661  ping piensg004
+  662  ssh -v piensg004
+  663  ping piensg007
+  664  ssh -v piensg007
+  665  docker ps
+  666  docker run -ti dduportal/rpi-alpine sh
+  667  docker history ps
+  668  docker history
+  669  docker ps
+  670  ip addr show
+  671  docker commit --help
+  672  docker ps -a
+  673  docker commit 09d466316b97
+  674  docker ps
+  675  docker commit --help
+  676  docker images
+  677  docker tag <none> niniss
+  678  docker tag none niniss
+  679  docker tag   niniss
+  680  docker tag <> niniss
+  681  docker tag --help
+  682  docker tag 09d466316b97 niniss
+  683  docker tag c315d0263364 niniss
+  684  docker images
+  685  docker history
+  686  docker history c315d0263364
+  687  docker run -ti niniss sh
+  688  docker ps -a
+  689  docker commit c0edda6ac1ba
+  690  docker images
+  691  docker tag c0edda6ac1ba  niniss2
+  692  docker tag 2c78ea2f2beb niniss2
+  693  docker run -ti niniss2 sh
+  694  docker rmi 2c78ea2f2beb 
+  695  docker rmi 72404cb54a47
+  696  docker images
+  697  docker tag 2c78ea2f2beb ninisss
+  698  docker run -ti niniss sh
+  699  docker images
+  700  docker rmi niniss
+  701  docker rm 2c78ea2f2beb
+  702  docker rm niniss
+  703  docker rm ninisss
+  704  docker rm 0aca4701e99d
+  705  c315d0263364
+  706  docker rmi c315d0263364
+  707  docker rmi niniss
+  708  docker image
+  709  docker rmi niniss
+  710  docker rmi 
+  711  docker rmi c315d0263364
+  712  713555                      eca62f
+  713  docker rmi c315d0263364
+  714  docker rmi 713555eca62f
+  715  docker rm 713555eca62f
+  716  docker rmi  
+  717  docker rmi ' '
+  718  docker rmi c315d0263364
+  719  docker rm 8bb89d857105
+  720  docker rmi c315d0263364
+  721  docker rmi ps -a
+  722  docker ps -a
+  723  docker ps --help
+  724  docker ps -a -q
+  725  docker ps -a -q | xargs docker rm
+  726  docker ps
+  727  docker stop
+  728  docker stop 321c27457202
+  729  docker ps -a -q | xargs docker rm
+  730  docker ps -a
+  731  docker ps -a -q | xargs docker rmi
+  732  docker images
+  733  docker images -a -q
+  734  docker images -a -q | xargs docker rmi
+  735  docker images -a -q | xargs docker rm
+  736  docker images -a -q | xargs docker rmi
+  737  docker images -a -q | xargs docker rm
+  738  docker images -a -q | xargs docker kill
+  739  docker images -q
+  740  docker images -q | xargs docker rm
+  741  docker images -q | xargs docker -f
+  742  docker images -f
+  743  docker images
+  744  docker images 7a21760c41c7 -f
+  745  docker images -a -q | xargs docker -f
+  746  docker images -q | xargs docker -f
+  747  docker images -q | xargs docker rmi -f
+  748  docker images
+  749  Dockerfile
+  750  cat Dockerfile
+  751  docker inspect
+  752  docker ps
+  753  ls
+  754  vi dockerfileniniss.txt
+  755  cat Dockerfile
+  756  cat dockerfileniniss.txt
+  757  mkdir Dock
+  758  ls
+  759  cd Dock/
+  760  mv ./dockerfileniniss.txt 
+  761  cd ..
+  762  ls
+  763  mv dockerfileniniss.txt ./Dock/
+  764  ls
+  765  cd Dock/
+  766  ls
+  767  rename dockerfileniniss.txt Dockerfile
+  768  rename dockerfileniniss.txt Dockerfile.txt
+  769  vi dockerfileniniss.txt 
+  770  cat dockerfileniniss.txt 
+  771  docker build -t nisrinimg:2.0.0 ./
+  772  vi Dockerfile
+  773  docker build -t nisrinimg:2.0.0 ./
+  774  docker run -ti nisrinimg:2.0.0 sh
+  775  docker history 
+  776  docker history nisrinimg
+  777  docker history 3cce679e674d
+  778  docker build -t nisrinimg:2.0.0 ./
+  779  ls
+  780  vi Dockerfile 
+  781  docker build -t nisrinimg:2.0.0 ./
+  782  ls
+  783  docker images -a
+  784  docker images -A
+  785  docker images --help
+  786  docker images --digests
+  787  docker images -a
+  788  ls
+  789  vi Dockerfile 
+  790  docker build -t ninginx:2.0.0 ./
+  791  docker images
+  792  curl -I -x ninginx/google.com
+  793  ls
+  794  vi dockerfileniniss.txt 
+  795  vi Dockerfile 
+  796  docker build -t ninginx:2.0.0 ./
+  797  vi Dockerfile 
+  798  docker inspect dduportal/arm-nginx
+  799  docker run -p
+  800  docker ps
+  801  docker ps -a
+  802  docker run -ti ninginx:2.0.0 sh
+  803  ls
+  804  vi Dockerfile 
+  805  cat Dockerfile 
+  806  docker run -d dduportal/arm-nginx 
+  807  docker inspect dduportal/arm-nginx
+  808  curl -I http://37033f2baca4
+  809  curl -I 37033f2baca4
+  810  curl -I
+  811  curl -I ninginx
+  812  docker ps
+  813  docker images
+  814  history
+  815  docker run -d ninginx:2.0.0
+  816  docker ps
+  817  curl -I ninginx
+  818  curl -I 786d39990e60
+  819  curl -i 786d39990e60
+  820  curl --help
+  821  curl -I arm-nginx
+  822  docker inspect arm-nginx
+  823  docker inspect ninginx
+  824  docker inspect
+  825  docker ps
+  826  docker inspect ninginx:2.0.0
+  827  curl -I 37033f2baca4
+  828  curl -I http://37033f2baca4
+  829  curl -I index.txt
+  830  curl index.txt
+  831  whoami
+  832  ifconfig
+  833  ipconfigg
+  834  ipconfig
+  835  ip addr show
+  836  curl -I 127.0.0.1/8 
+  837  curl -I 127.0.0.1/80
+  838  docker ps
+  839  curl -I 127.0.0.1
+  840  curl -I 172.31.57.60
+  841  docker ps
+  842  curl http://127.0.0.1
+  843  docker inspect ning
+  844  docker inspect ninginx
+  845  docker ps
+  846  reverent_swanson
+  847  docker inspect reverent_swanson
+  848  curl -I http://172.17.0.3
+  849  curl http://172.17.0.3
+  850  ls
+  851  docker run -ti ninginx sh
+  852  docker run -ti ninginx:2.0.0 sh
+  853  ls
+  854  vi Dockerfile 
+  855  docker build -t ninginx:2.0.0 sh
+  856  docker build -t ninginx:2.0.0
+  857  docker build -t ninginx:2.0.0 sh
+  858  ls
+  859  vi Dockerfile 
+  860  docker build -t dernier:2.0.0 sh
+  861  docker build -t dernier:2.0.0
+  862  docker build -t dernier:2.0.0 ./
+  863  docker run -ti dernier:2.0.0 sh
+  864  ls
+  865  vi Dockerfile 
+  866  docker run -ti derniere:2.0.0 sh
+  867  docker build -t derniere:2.0.0 ./
+  868  docker run -ti derniere:2.0.0 sh
+  869  history
+  870  curl http://172.17.0.3
+  871  docker ps
+  872  docker inspect reverent_swanson 
+  873  curl --noproxy "*" http://172.17.0.3
+  874  docker build -d derniere:2.0.0 ./
+  875  docker run -d derniere:2.0.0 ./
+  876  docker run -d derniere:2.0.0
+  877  docker inspect reverent_swanson 
+  878  docker ps
+  879  docker inspect admiring_snyder 
+  880  curl --noproxy "*" http://172.17.0.4
+  881  curl --noproxy "*" http://piensg010:22333
+  882  docker ps
+  883  ls
+  884  vi Dockerfile 
+  885  curl --noproxy "*" http://piensg010:22333
+  886  curl --noproxy "*" http://172.17.0.4
+  887  curl --noproxy "*" http://172.31.57.61:10000
+  888  history
+  889  docker build -t dernierdernier:2.0.0 ./
+  890  docker ps
+  891  docker run -d dernierdernier:2.0.0
+  892  docker ps
+  893  docker inspect serene_hamilton 
+  894  curl --noproxy "*" http://172.17.0.5
+  895  docker ps
+  896  docker run --name=extern:2.0.0 -d -P dernierdernier
+  897  docker run --name=extern:2.0.0 -d -P dernierdernier:2.0.0
+  898  docker run --name=extern:2.0.0 -d -P extern
+  899  docker run --name=dernierdernier:2.0.0 -d -P extern
+  900  docker run --name=dernierdernier:2.0.0 -d -P 10001:80 extern
+  901  docker run --name=dernierdernier:2.0.0 -d -P dernierdernier
+  902  docker inspect dernierdernier
+  903  ps
+  904  docker ps
+  905  ps aux
+  906  docker ps
+  907  docker run --name=webserver -d -p 1000:80 dernierdernier:2.0.0
+  908  docker port webserver
+  909  80/tcp -> 0.0.0.0:PORT
+  910  80 -> 0.0.0.0:PORT
+  911  curl -I http://10.0.0.0:1080
+  912  curl -I http://10.0.0.0:80
+  913  curl -I http://10.0.0.0:1000
+  914  docker run --name=webserver -d -p 10000:80 dernierdernier:2.0.0
+  915  docker run --name=webserverr -d -p 10000:80 dernierdernier:2.0.0
+  916  docker port webserverr
+  917  curl -I http://10.0.0.0:10000
+  918  curl -I "*" http://10.0.0.0:10000
+  919  curl -I --noproxy "*" http://10.0.0.0:10000
+  920  curl -I "*" http://10.0.0.0:10000
+  921  docker inspect dernierdernier
+  922  docker inspect dernierdernier:2.0.0
+  923  docker ps
+  924  docker inspect serene_hamilton
+  925  docker run --name=webserverrr -d -P dernierdernier:2.0.0
+  926  docker port websever
+  927  docker port webserver
+  928  docker run --name=webserverrr -d -p 10000:80 dernierdernier:2.0.0
+  929  docker run --name=webserverrrr -d -p 10000:80 dernierdernier:2.0.0
+  930  docker run -d -p 10000:80 dernierdernier:2.0.0
+  931  docker run -d -p 10002:80 dernierdernier:2.0.0
+  932  docker ps
+  933  docker run -d -p 10004:80 dernierdernier:2.0.0
+  934  docker run -ti dduportal/rpi-alpine sh
+  935  docker run -ti -v /app dduportal/rpi-alpine sh
+  936  docker run -ti --volumes-from dduportal/rpi-alpine sh 
+  937  docker ps
+  938  docker ps -a
+  939  docker run -ti --volumes-from condescending_wozniak dduportal/rpi-alpine ls -l /app
+  940  history
+  941  docker pull dduportal/arm-redis
+  942  cat 
+  943  cat /etc/default/docker
+  944  docker pull dduportal/hypriot/rpi-redis
+  945  docker pull hypriot/rpi-redis
+  946  cat /etc/default/docker
+  947  cat /etc/apt/
+  948  ls
+  949  cd /etc/apt/
+  950  ls
+  951  sudo apt.conf.d
+  952  cd apt.conf.d/
+  953  ls
+  954  vim proxy
+  955  apt-get update && ugrade
+  956  su apt-get update && ugrade
+  957  sudo apt-get update && ugrade
+  958  sudo apt-get upgrade
+  959  sudo reboot now
+  960  docker inspect redis-server-oa
+  961  docker inspect redis-server-01
+  962  exit
+  963  docker images
+  964  docker run --help
+  965  docker run -d --name redis-server-01 dduportal/arm-redis 
+  966  docker ps
+  967  docker images
+  968  docker logs --help
+  969  docker logs 
+  970  docker logos redis-server-oa
+  971  docker logos redis-server-o1
+  972  docker logs redis-server-o1
+  973  docker ps
+  974  docker logs cb1
+  975  docker ru -ti entrypoint ssh dduportal/arm-redis
+  976  docker run -ti entrypoint ssh dduportal/arm-redis
+  977  docker run -ti entrypoint=sh dduportal/arm-redis
+  978  docker run -ti --entrypoint=sh dduportal/arm-redis
+  979  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping redis-server-oa
+  980  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping redis-server-01
+  981  docker run -ti --link=redis-server-01:bdd dduportal/arm-redis ping bdd
+  982  docker run -ti --entrypoint=sh --link=redis-server-01:bdd dduportal/arm-redis 
+  983  docker pull hypriot/rpi-python
+  984  ls
+  985  cd travail/
+  986  ls
+  987  mkdir Dockerfile
+  988  ls
+  989  vim Dockerfile/
+  990  vim Dockerfile
+  991  rm Dockerfile/
+  992  rm -r Dockerfile/
+  993  ls
+  994  touch Dockerfile
+  995  vim Dockerfile 
+  996  touch app.py
+  997  vim app.py
+  998  ls
+  999  pwd
+ 1000  vim Dockerfile 
+ 1001  vim Dockerfile
+ 1002  touch requirements.txt
+ 1003  v
+ 1004  vim Dockerfile
+ 1005  docker build -t teste ./
+ 1006  vim Dockerfile
+ 1007  docker build -t teste ./
+ 1008  ls
+ 1009  pwd
+ 1010  vim Dockerfile
+ 1011  vim Dockerfile
+ 1012  docker build -t teste ./
+ 1013  vim Dockerfile
+ 1014  vim requirements.txt 
+ 1015  vim app.py 
+ 1016  vim Dockerfile
+ 1017  docker build -t teste ./
+ 1018  vim Dockerfile
+ 1019  docker build -t teste ./
+ 1020  vim Dockerfile
+ 1021  sudo route -n
+ 1022  docker ps -a
+ 1023  docker run -d test
+ 1024  docker build -t teste ./
+ 1025  docker run -d teste
+ 1026  docker ps
+ 1027  docker inspect teste
+ 1028  docker logs teste
+ 1029  docker ps
+ 1030  docker logs 9c3
+ 1031  ip addrshow
+ 1032  ip addr show
+ 1033  vim app.py 
+ 1034  docker -compose
+ 1035  docker- compose -v
+ 1036  docker -compose -v
+ 1037  docker- compose -v
+ 1038  docker compose --help
+ 1039  docker- compose -v
+ 1040  docker- compose 
+ 1041  docker-compose
+ 1042  docker-compose --help
+ 1043  touch compose.yaml
+ 1044  docker-compose up -d
+ 1045  touch compose.yaml
+ 1046  rm -r compose.yaml 
+ 1047  ls
+ 1048  touch docker-compose.yaml
+ 1049  vim docker-compose.yaml
+ 1050  docker-compose up -d
+ 1051  vim docker-compose.yaml
+ 1052  docker-compose up -d
+ 1053  vim docker-compose.yaml
+ 1054  docker-compose up -d
+ 1055  vim docker-compose.yaml
+ 1056  docker-compose up -d
+ 1057  docker-compose ps
+ 1058  ip addr show
+ 1059  vim docker-compose.yaml
+ 1060  vim Dockerfile
+ 1061  ls
+ 1062  cd travail/
+ 1063  ls
+ 1064  vim docker-compose.yaml
+ 1065  vim Dockerfile 
+ 1066  ls
+ 1067  cd /etc/
+ 1068  ls
+ 1069  cd hosts
+ 1070  cd /hosts
+ 1071  cd hosts/
+ 1072  cd .
+ 1073  cd 
+ 1074  nano /etc/boot
+ 1075  cd /etc/boot
+ 1076  cd /etc/boot/
+ 1077  cd ..
+ 1078  vi /boot/occidentalis.txt 
+ 1079  sudo vi /boot/occidentalis.txt 
+ 1080  sudo reboot now
+ 1081  cd travail/
+ 1082  ls 
+ 1083  cd voting/
+ 1084  ls
+ 1085  cd example-voting-app/
+ 1086  cd vote-apps/
+ 1087  ls
+ 1088  cd voting-app/
+ 1089  ls
+ 1090  cd ..
+ 1091  cd result-app/
+ 1092  cat Dockerfile
+ 1093  nano Dockerfile
+ 1094  exit
+ 1095  git clone https://github.com/docker/example-voting-app.git
+ 1096  cd /etc/apt/apt.conf.d/
+ 1097  ls
+ 1098  nano proxy
+ 1099  git clone https://github.com/docker/example-voting-app.git
+ 1100  ls
+ 1101  cd ..
+ 1102  cd
+ 1103  cd travail/
+ 1104  mkdir voting
+ 1105  cd voting/
+ 1106  git clone https://github.com/docker/example-voting-app.git
+ 1107  cat /etc/profile
+ 1108  sudo vim /etc/profile.d/proxy.sh
+ 1109  echo $a
+ 1110  . /etc/profile.d/proxy.sh
+ 1111  nano 
+ 1112  nano /etc/profile.d/proxy.sh
+ 1113  . /etc/profile.d/proxy.sh
+ 1114  echo $proxy 
+ 1115  git clone https://github.com/docker/example-voting-app.git
+ 1116  sudo nano /etc/profile.d/proxy.s
+ 1117  git clone https://github.com/docker/example-voting-app.git
+ 1118  ls
+ 1119  cd example-voting-app/
+ 1120  ls
+ 1121  cd vote-apps/
+ 1122  ls
+ 1123  cd worker/
+ 1124  ls
+ 1125  sudo nano Dockerfile 
+ 1126  cd ..
+ 1127  ls
+ 1128  sudo docker-compose
+ 1129  sudo nano docker-compose
+ 1130  ls
+ 1131  sudo nano docker-compose.yml 
+ 1132  ls
+ 1133  cd result-app/
+ 1134  ls
+ 1135  sudo nano Dockerfile 
+ 1136  cd ..
+ 1137  ls
+ 1138  cd voting-app/
+ 1139  ls
+ 1140  sudo nano Dockerfile 
+ 1141  cd ..
+ 1142  ls
+ 1143  docker-compose up -d
+ 1144  ls
+ 1145  cd worker/
+ 1146  ls
+ 1147  sudo nano Dockerfile 
+ 1148  run build -t test ./
+ 1149  docker  build -t test ./
+ 1150  sudo nano Dockerfile 
+ 1151  docker  build -t test ./
+ 1152  cd ..
+ 1153  cd voting-app/
+ 1154  ls
+ 1155  docker build -t ttt ./
+ 1156  sudo nano Dockerfile 
+ 1157  docker build -t ttt ./
+ 1158  cd ..
+ 1159  cd worker/
+ 1160  ls
+ 1161  sudo nano Dockerfile 
+ 1162  docker build -t tt ./
+ 1163  sudo nano Dockerfile 
+ 1164  ls
+ 1165  sudo nano pom.xml 
+ 1166  ls
+ 1167  cd result-app/
+ 1168  ls
+ 1169  sudo nano Dockerfile
+ 1170  docker build -t tdt ./
+ 1171  ls
+ 1172  cd ..
+ 1173  ls
+ 1174  cd worker/
+ 1175  ls
+ 1176  touch settings.xml
+ 1177  nano settings.xml
+ 1178  docker build -t tdt ./
+ 1179  cd ..
+ 1180  cd voting-app/
+ 1181  docker build -t tddt ./
+ 1182  cd ..
+ 1183  cd result-app/
+ 1184  docker build -t tdddt ./
+ 1185  cd ..
+ 1186  ls
+ 1187  docker-compose up -d
+ 1188  cd worker/
+ 1189  cat Dockerfile 
+ 1190  which ls
+ 1191  echo $path
+ 1192  echo $PATH
+ 1193  nano Dockerfile 
+ 1194  cd ..
+ 1195  docker-compose up -d
+ 1196  nano Dockerfile 
+ 1197  docker-compose up -d
+ 1198  cd ..
+ 1199  docker-compose up -d
+ 1200  docker-compose --help
+ 1201  docker-compose ps -a -q | xargs docker-compose kill
+ 1202  docker-compose up -d
+ 1203  docker-compose ps -q | xargs docker-compose kill
+ 1204  docker-compose ps 
+ 1205  docker-compose ps -a -q | xargs docker-compose kill 
+ 1206  ls
+ 1207  docker-compose ps -a -q | xargs docker-compose kill 
+ 1208  docker-compose up -d
+ 1209  docker-compose up -d
+ 1210  docker compose ps -a
+ 1211  docker-compose ps -a
+ 1212  docker-compose ps -q | xargs docker-compose kill
+ 1213  docker-compose ps -q | xargs docker-compose rmi -f
+ 1214  docker-compose --help
+ 1215  docker-compose ps -q | xargs docker-compose rm -f
+ 1216  cd worker/
+ 1217  cat Dockerfile 
+ 1218  docker-compose up -d
+ 1219  cd ..
+ 1220  docker-compose up -d
+ 1221  docker-compose ps -q | xargs docker-compose rm -f
+ 1222  docker ps -qa | xargs docker-compose rm -f
+ 1223  docker ps -qa | xargs docker rm -f
+ 1224  docker ps -qa | xargs docker-compose rm -f
+ 1225  docker-compose up -d
+ 1226  cd worker/
+ 1227  cat Dockerfile 
+ 1228  docker build -t ttttttttt ./
+ 1229  nano Dockerfile 
+ 1230  sudo nano Dockerfile 
+ 1231  cd ..
+ 1232  ls
+ 1233  docker-compose up -d
+ 1234  cat docker-compose.yml 
+ 1235  docker ps -qa | xargs docker-compose rm -f
+ 1236  docker ps -qa | xargs docker rm -f
+ 1237  docker-compose up -d
+ 1238  cd worker/
+ 1239  docker build -t ttttttttt ./
+ 1240  cd ..
+ 1241  cd voting-app/
+ 1242  docker-compose up -d
+ 1243  docker ps -qa | xargs docker rm -f
+ 1244  docker-compose up -d
+ 1245  cd ..
+ 1246  ls
+ 1247  cd worker/
+ 1248  cat Dockerfile 
+ 1249  docker build -t ttttttttt ./
+ 1250  docker run -ti 4d6 /bin/bash
+ 1251  cd ..
+ 1252  docker-compose up -d
+ 1253  docker-compose ps
+ 1254  docker-compose kill voteapp_voteapps_worker_1 
+ 1255  docker-compose ps -a
+ 1256  docker-compose ps -q
+ 1257  docker-compose kill 218
+ 1258  docker-compose ps -q | xargs docker-compose kill
+ 1259  docker-compose ps -q
+ 1260  docker-compose ps -q | xargs docker-compose rm
+ 1261  docker-compose ps -q
+ 1262  docker-compose ps -qa
+ 1263  docker-compose ps 
+ 1264  docker-compose ps -q -a
+ 1265  docker-compose ps -q 
+ 1266  docker-compose up -d
+ 1267  docker ps -q -a | xargs docker rm -f
+ 1268  docker-compose ps
+ 1269  docker-compose up -d
+ 1270  cd worker/
+ 1271  cat Dockerfile 
+ 1272  cd ..
+ 1273  docker-compose up -d worker
+ 1274  docker-compose build worker
+ 1275  ls
+ 1276  docker-compose up -d
+ 1277  cd voting-app/
+ 1278  ls -a
+ 1279  ls -la
+ 1280  nano Dockerfile
+ 1281  cd //
+ 1282  ls
+ 1283  cd /home/
+ 1284  ls
+ 1285  cd /pi/
+ 1286  cd pi/travail/
+ 1287  ls
+ 1288  cat docker-compose.yaml 
+ 1289  cat Dockerfile 
+ 1290  cd voting/
+ 1291  cd example-voting-app/
+ 1292  ls
+ 1293  cd vote-apps/
+ 1294  ls
+ 1295  docker-compose up -d
+ 1296  docker-compose ps 
+ 1297  ip addr show
+ 1298  docker ps 
+ 1299  cat ./voting-app/Dockerfile
+ 1300  docker-compose logs voting-app/
+ 1301  docker-compose logs voting-app
+ 1302  docker ps
+ 1303  docker exec -ti 987dd2925bd6 /bin/sh
+ 1304  ls
+ 1305  nano docker-compose.yml 
+ 1306  docker-compose up -d
+ 1307  nano docker-compose.yml 
+ 1308  docker-compose up -d
+ 1309  cd ..
+ 1310  cat docker-compose.yaml 
+ 1311  ls
+ 1312  cat app.py 
+ 1313  cd
+ 1314  cd travail/voting/example-voting-app/
+ 1315  ls
+ 1316  cd vote-apps/
+ 1317  ls
+ 1318  cat docker-compose.yml 
+ 1319  nano docker-compose.yml 
+ 1320  nano docker-compose.yml 
+ 1321  docker-compose up -d
+ 1322  vim docker-compose.yml 
+ 1323  docker-compose up -d
+ 1324  vim docker-compose.yml 
+ 1325  docker-compose up -d
+ 1326  ls
+ 1327  cd ..
+ 1328  ls
+ 1329  git status
+ 1330  git remote add amiri https://github.com/MedAmiri/voting-example.git
+ 1331  git add .
+ 1332  git commit -m "teste reussi processeur ARM"
+ 1333  git config --global user.email "amiri.mohammed41@gmail.com"
+ 1334  git config --global user.name "MedAmiri"
+ 1335  git commit -m "teste reussi processeur ARM"
+ 1336  git push amiri master
+ 1337  ls
+ 1338  cd vote-apps/
+ 1339  ls
+ 1340  cat docker-compose.yml 
+ 1341  git status
+ 1342  git pull amiri master
+ 1343  git log
+ 1344  git push amiri master
+ 1345  ls
+ 1346  nano docker-compose.yml 
+ 1347  docker-compose --x-networking up -d
+ 1348  docker images
+ 1349  docker run -ti --entrypoint sh hypriot/rpi-redis 
+ 1350  docker run -v /app -ti --entrypoint sh hypriot/rpi-redis 
+ 1351  docker ps -l
+ 1352  docker rm 9c6e13cb5549
+ 1353  docker run -v /app -ti --entrypoint sh hypriot/rpi-redis 
+ 1354  docker ps
+ 1355  docker ps -q | xargs docker kill
+ 1356  man xargs
+ 1357  docker ps -a -q | xargs docker rm -v
+ 1358  docker images
+ 1359  docker images -f dangling=true
+ 1360  docker images -f dangling=true -q | xargs docker rmi
+ 1361  sudo su -
+ 1362  docker ps 
+ 1363  docker inspect 9c6
+ 1364  sudo su -
+ 1365  docker ps
+ 1366  docker run -ti --entrypoint sh --volumes-from hight_fermi hypriot/rpi-redis
+ 1367  docker run -ti --entrypoint sh --volumes-from high_fermi hypriot/rpi-redis
+ 1368  docker ps
+ 1369  docker run -ti --entrypoint sh --volumes-from 349434bf024a  hypriot/rpi-redis
+ 1370  docker info
+ 1371  docker run --restart=always -d hypriot/rpi-swarm join --advertise $(hostname):2375 consul://172.31.56.94:8500
+ 1372  docker ps
+ 1373  docker logs e35
+ 1374  sudo su -
+ 1375  docker images
+ 1376  ls
+ 1377  cd travail/
+ 1378  apt-get install haproxy
+ 1379  sudo apt-get install haproxy
+ 1380  mkdir cluster
+ 1381  cd cluster/
+ 1382  ls
+ 1383  touch Dockerfile
+ 1384  cat Dockerfile 
+ 1385  nano Dockerfile 
+ 1386  touch index.html
+ 1387  nano index.html 
+ 1388  ls
+ 1389  rm index.htmles 
+ 1390  ls
+ 1391  cd ..
+ 1392  mkdir cluster2
+ 1393  touch Dockerfile
+ 1394  touch index.html
+ 1395  nano index.html 
+ 1396  nano Dockerfile 
+ 1397  ls
+ 1398  mv index.html ./cluster2/
+ 1399  cd cluster2/
+ 1400  ls
+ 1401  touch Dockerfile
+ 1402  nano Dockerfile 
+ 1403  cd ..
+ 1404  docker run -ti dduportal/arm-nginx
+ 1405  docker run -ti dduportal/arm-nginx /bin/bash
+ 1406  docker run -ti dduportal/arm-nginx /sh
+ 1407  cd cluster
+ 1408  ls
+ 1409  docker run -ti dduportal/arm-nginx sh
+ 1410  docker run -ti --entrypoint sh  dduportal/arm-nginx
+ 1411  nano Dockerfile 
+ 1412  cd ..
+ 1413  cd cluster2/
+ 1414  nano Dockerfile 
+ 1415  docker build -t server-01 ./
+ 1416  cd ..
+ 1417  cd cluster
+ 1418  lq
+ 1419  ls
+ 1420  docker build -t server-02 ./
+ 1421  docker -d -P server-01
+ 1422  docker run -d -P server-01
+ 1423  docker run -d -P server-02
+ 1424  docker ps 
+ 1425  docker inspect 740
+ 1426  curl --noproxy '*' 172.17.0.4
+ 1427  curl --noproxy '*' 172.17.0.1
+ 1428  curl --noproxy '*' 172.17.0.4
+ 1429  curl --noproxy '*' -I 172.17.0.4
+ 1430  curl --noproxy '*' -I 172.17.0.4/index.html
+ 1431  curl --noproxy '*' 172.17.0.4/index.html
+ 1432  cat index.html 
+ 1433  cd ..
+ 1434  docker ps
+ 1435  lsq
+ 1436  cd cluster
+ 1437  ls
+ 1438  nano index.html 
+ 1439  cat index.html 
+ 1440  docker ps 
+ 1441  docker kill server-02
+ 1442  docker kill 740
+ 1443  docker ps 
+ 1444  docker build -t server-02 ./
+ 1445  docker run -d -P server-02
+ 1446  docker ps 
+ 1447  sudo nano /etc/default/haproxy 
+ 1448  sudo nano /etc/haproxy/haproxy.cfg 
+ 1449  docker ps
+ 1450  docker inspect f2d
+ 1451  docker inspect 1dd
+ 1452  sudo nano /etc/haproxy/haproxy.cfg 
+ 1453  sudo systemctl enable haproxy
+ 1454  sudo systemctl haproxy haproxy
+ 1455  sudo systemctl start haproxy
+ 1456  journalctl -u haproxy
+ 1457  apt-get install keepalived
+ 1458  sudo apt-get install keepalived
+ 1459  sudo nano /etc/keepalived/keepalived.conf
+ 1460  sudo systemctl enable keepalived
+ 1461  systemctl start keepalived
+ 1462  sudo systemctl start keepalived
+ 1463  nano /etc/sysctl.conf
+ 1464  nano /etc/haproxy/haproxy.cfg 
+ 1465  docker ps
+ 1466  nano /etc/haproxy/haproxy.cfg 
+ 1467  sudo systemctl start keepalived
+ 1468  sudo systemctl stop keepalived
+ 1469  sudo systemctl start haproxy
+ 1470  sudo systemctl status haproxy
+ 1471  nano /etc/haproxy/haproxy.cfg 
+ 1472  sudo su -
+ 1437  ls
+ 1438  nano index.html 
+ 1439  cat index.html 
+ 1440  docker ps 
+ 1441  docker kill server-02
+ 1442  docker kill 740
+ 1443  docker ps 
+ 1444  docker build -t server-02 ./
+ 1445  docker run -d -P server-02
+ 1446  docker ps 
+ 1447  sudo nano /etc/default/haproxy 
+ 1448  sudo nano /etc/haproxy/haproxy.cfg 
+ 1449  docker ps
+ 1450  docker inspect f2d
+ 1451  docker inspect 1dd
+ 1452  sudo nano /etc/haproxy/haproxy.cfg 
+ 1453  sudo systemctl enable haproxy
+ 1454  sudo systemctl haproxy haproxy
+ 1455  sudo systemctl start haproxy
+ 1456  journalctl -u haproxy
+ 1457  apt-get install keepalived
+ 1458  sudo apt-get install keepalived
+ 1459  sudo nano /etc/keepalived/keepalived.conf
+ 1460  sudo systemctl enable keepalived
+ 1461  systemctl start keepalived
+ 1462  sudo systemctl start keepalived
+ 1463  nano /etc/sysctl.conf
+ 1464  nano /etc/haproxy/haproxy.cfg 
+ 1465  docker ps
+ 1466  nano /etc/haproxy/haproxy.cfg 
+ 1467  sudo systemctl start keepalived
+ 1468  sudo systemctl stop keepalived
+ 1469  sudo systemctl start haproxy
+ 1470  sudo systemctl status haproxy
+ 1471  nano /etc/haproxy/haproxy.cfg 
+ 1472  sudo su -
+

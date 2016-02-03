@@ -1,0 +1,8 @@
+web:
+ build: .
+ ports:
+  - "8001:5000"
+ links:
+  - redis
+redis:
+ image: dduportal/arm-redis
